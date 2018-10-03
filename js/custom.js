@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
 	// header color change
@@ -21,6 +22,26 @@ $(document).ready(function(){
 	$('[data-fancybox]').fancybox({
   		loop : true
 	});
-    
-
+	//畫面下拉時跳出go to page
+	var showFlag = false;
+	$(window).scroll(function () {        
+        if ($(this).scrollTop() > 400) {
+            if (showFlag === false) {
+                showFlag = true;
+                $('#myBtn').stop().animate({'bottom' : '80px'}, 100);
+                // $('#myBtn').css('display','block');
+            }
+        } else {
+            if (showFlag) {
+                showFlag = false;
+                $('#myBtn').stop().animate({'bottom' : '-80px'}, 100); 
+                // $('#myBtn').css('display','none');
+            }
+        }
+    });
+    // 按下PAGE TOP的動作
+    $('#myBtn').click(function () {
+        $('body,html').animate({ scrollTop: 0 }, 500);
+        return false;
+    });
 });

@@ -804,5 +804,39 @@
     font-size: 14px;
 }
 /*-------------------------*/
-/* $parallax graphic
+/* go to top
 ---------------------------*/
+#myBtn{
+	/* display: none;  */
+	position: fixed; 
+	opacity: 0.6;
+	bottom: -80px; 
+    right: 10px; 
+    z-index: 99;
+    border: none;
+    outline: none; 
+    background-color: #e881a7; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 80px; /* Rounded corners */
+    font-size: 16px; /* Increase font size */
+    width: 80px;
+    height: 80px;
+    font-weight: 800;
+}
+@media (max-width: 768px) {
+	#myBtn{
+		width: 40px;
+    	height: 40px;
+    	border-radius: 40px;
+    	font-size: 6px;
+    	padding: 0px;
+    	font-weight: 400;
+
+	}
+}
+#myBtn:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
