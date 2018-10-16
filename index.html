@@ -36,7 +36,7 @@
 							<i class="icon icon-twitter">
 							</i>
 						</a>
-                        <a href="https://github.com/gitnick815/aboutMe" target="_blank" class="icon-btn">
+                        <a href="https://github.com/gitnick815" target="_blank" class="icon-btn">
 							<i class="icon icon-github-circled">	
 							</i>
 						</a>
@@ -82,7 +82,7 @@
                         <h1 class="hero__heading">
 							Hello,<br />I'm Nick.
 						</h1>
-                        <a href="#" class="btn btn--primary btn--md">Contact</a>
+                        <a href="https://github.com/gitnick815/aboutMe" target="_blank" class="btn btn--primary btn--md">RESUME</a>
                     </div>
                 </div>
             </div>
@@ -118,7 +118,12 @@
                                 <div class="skill-card wow bounceInUp" data-wow-delay="0.3s">
                                     <div class="skill-card__inner">
                                         <h4 class="skill-card__title">HTML</h4>
-                                        <p class="skill-card__text"></p>                  
+                                        <div class="skill-card__level"></div>              
+                                        <div class="skill-card__level"></div>  
+                                        <div class="skill-card__level"></div>
+                                        <div class="skill-card__level"></div>
+                                        <div class="skill-card__noLevel"></div>            
+
                                     </div>
                                     <div class="skill-card__icon">
                                         <img class="image" src="images/skill_icon/html-icon.png" alt="">
@@ -129,7 +134,11 @@
                                 <div class="skill-card wow bounceInUp" data-wow-delay="0.6s">
                                     <div class="skill-card__inner">
                                         <h4 class="skill-card__title">CSS</h4>
-                                        <p class="skill-card__text"></p>
+                                        <div class="skill-card__level"></div>              
+                                        <div class="skill-card__level"></div>  
+                                        <div class="skill-card__level"></div>
+                                        <div class="skill-card__level"></div>
+                                        <div class="skill-card__noLevel"></div>
                                     </div>
                                     <div class="skill-card__icon">
                                         <img class="image" src="images/skill_icon/css-icon.png" alt="">
@@ -142,7 +151,11 @@
                                 <div class="skill-card wow bounceInUp" data-wow-delay="0.9s">
                                     <div class="skill-card__inner">
                                         <h4 class="skill-card__title">JavaScript</h4>
-                                        <p class="skill-card__text"></p>
+                                        <div class="skill-card__level"></div> 
+                                        <div class="skill-card__level"></div> 
+                                        <div class="skill-card__level"></div> 
+                                        <div class="skill-card__noLevel"></div> 
+                                        <div class="skill-card__noLevel"></div> 
                                     </div>
                                     <div class="skill-card__icon">
                                         <img class="image" src="images/skill_icon/js-icon.png" alt="">
@@ -153,7 +166,11 @@
                                 <div class="skill-card wow bounceInUp" data-wow-delay="1.2s">
                                     <div class="skill-card__inner">
                                         <h4 class="skill-card__title">Vue.js</h4>
-                                        <p class="skill-card__text"></p>
+                                        <div class="skill-card__level"></div> 
+                                        <div class="skill-card__level"></div> 
+                                        <div class="skill-card__noLevel"></div>
+                                        <div class="skill-card__noLevel"></div>
+                                        <div class="skill-card__noLevel"></div>
                                     </div>
                                     <div class="skill-card__icon">
                                         <img class="image" src="images/skill_icon/vuejs-icon.png" alt="">
@@ -322,29 +339,12 @@
             <div id="contact" class="contact">
                 <div class="container">
                     <h2 class="subtitle u-text-center color-white wow bounceInUp">CONTACT</h2>
-                    <form action="" class="form wow fadeInUp">
-                        <label for="">Name</label>
-                        <input type="text">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <label for="">Phone</label>
-                                <input type="tel">
-                            </div>
-                            <div class="col-sm-6">
-                                <label for="">Email</label>
-                                <input type="email">
-                            </div>
-                        </div>
-                        <label for="">Message</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <div class="btn-group btn-group--center form__btn-group">
-                            <input type="submit" class="btn btn--primary btn--md" value="Send">
-                        </div>
-                    </form>
-                    <div class="divide-text wow fadeIn">or</div>
                     <div class="info">
+                    	<div class="info__name wow bounceInUp">
+                    		<p>王鼎恩(Nick Wang)</p>
+                    	</div>	
                         <div class="info__email wow bounceInUp">
-                            <a href="mailTo:nick9815@gmail.com">lab21051@gmail.com</a>
+                            <a href="mailTo:lab21051@gmail.com">lab21051@gmail.com</a>
                         </div>
                         <div class="info__phone wow bounceInUp">
                             <a href="tel:0989006347">0989006347</a>
@@ -359,7 +359,7 @@
 								<i class="icon icon-twitter">
 								</i>
 							</a>
-                            <a href="https://github.com/gitnick815/aboutMe" target="_blank" class="icon-btn wow bounceIn">
+                            <a href="https://github.com/gitnick815" target="_blank" class="icon-btn wow bounceIn">
 								<i class="icon icon-github-circled"">	
 								</i>
 							</a>
@@ -374,11 +374,12 @@
         <!-- Strat footer -->
         <footer class="footer">
             <div class="container">
-                <p class="copyright">Copyright © 2018</p>
+                <p class="copyright">Copyright © 2018 王鼎恩</p>
             </div>
         </footer>
         <!-- footer End -->
-        <button onclick="topFunction()" id="myBtn" title="Go to Top">PAGE TOP</button>
+        <button id="js-pageTop" title="Go to Top">PAGE TOP</button>
+
     </div>
     <script src="js/jquery-2.0.2.min.js"></script>
     <script src="js/wow.min.js"></script>
