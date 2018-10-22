@@ -34,9 +34,10 @@
 	width: 100%;
 	top: 0;
 	left: 0;
-	background-image: url(../images/hiroto_htmachi_TP_V.jpg);
+	background-image: url("../images/rawpixel-550994-unsplash.jpg");
 	background-size: cover;
 	background-position: bottom;
+	opacity: 0.8;
 }
 .bg:after{
 	content: "";
@@ -45,7 +46,7 @@
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: linear-gradient(60deg,#4e4f95,#c87db4);
+	background-color: #222;
 	opacity: 0.5;
 }
 /* leng-bg
@@ -87,20 +88,20 @@
     color: #fefefe;
 }
 .btn.btn--primary{
-    background-color: #e881a7;
+    background-color: #0582CA;
 }
 .btn.btn--primary:hover,
 .btn.btn--primary:active{
-    background-color: #dd6488;
+    background-color: #006494;
 }
 .btn.btn--secondary{
     background-color: inherit;
-    border: 1px solid #e881a7;
-    color: #e881a7;
+    border: 1px solid #0582CA;
+    color: #0582CA;
 }
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active{
-    background-color: #e881a7;
+    background-color: #0582CA;
     color: #fefefe;
 }
 .btn.btn--lg{
@@ -165,7 +166,7 @@
     color: #484848;
 }
 .text-btn.text-btn--primary{
-    color: #e881a7;
+    color: #0582CA;
 }
 .text-btn.text-btn--lg{
     font-size: 20px;
@@ -180,7 +181,7 @@
 	left: 0;
 	width: 0%;
 	height: 2px;
-	background-color: #e881a7;
+	background-color: #0582CA;
 	transition: all 0.3s;
 }
 .text-btn.text-btn--lg:hover:before{
@@ -233,10 +234,10 @@
 	box-shadow: 0 3px 5px rgba(0,0,0,0.1);
 }
 .header--colored .menu-toggle span{
-    background-color: #e881a7;
+    background-color: #0582CA;
 }
 .header--colored .navbar__social-bar .icon-btn{
-    color: #e881a7;
+    color: #0582CA;
 }
 /* navbar 
 ---------------------*/
@@ -337,7 +338,7 @@
 .popup-menu__close span{
 	width: 32px;
 	height: 2px;
-	background-color: #e881a7;
+	background-color: #0582CA;
 	/*display: block;*/
 	position: absolute; /*定位在上一層*/
 	top: 50%;
@@ -367,7 +368,7 @@
 	}
 }
 .popup-menu__item:hover{
-	color: #e881a7;
+	color: #0582CA;
 }
 /*-------------------------*/
 /* $About 
@@ -440,7 +441,7 @@
 	color: #484848;
 }
 .quote__icon{
-	background-color: #e881a7;
+	background-color: #0582CA;
 	height: 64px;
 	width: 64px;
 	border-radius: 50%;
@@ -464,7 +465,7 @@
 
 }
 .quote__name span{
-	color: #e881a7;
+	color: #0582CA;
 } 
 /*-------------------------*/
 /* $Skill
@@ -500,7 +501,7 @@
 	padding-left: 48px;
 }
 .skill-card__title{
-	color: #e881a7;
+	color: #0582CA;
     margin-top: 0;
     margin-bottom: 8px;
 }
@@ -511,7 +512,7 @@
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	background-color: #e881a7;
+	background-color: #0582CA;
 	margin-right: 6px;
 	border-radius: 30px;
 }
@@ -520,7 +521,7 @@
 	width: 30px;
 	height: 30px;
 	margin-right: 6px;
-	border: 2px solid #e881a7;
+	border: 2px solid #0582CA;
 	border-radius: 30px;
 }
 .skill-card__icon{
@@ -587,7 +588,7 @@
 .timeline{
 	height: 100%;
 	width: 4px;
-	background-color: #e881a7;
+	background-color: #0582CA;
 	position: absolute;
 	top:0;
 	left: 50%;
@@ -612,7 +613,7 @@
 	content: "";
 	width: 16px;
 	height: 16px;
-	background-color: #e881a7;
+	background-color: #0582CA;
 	border-radius: 50%;
 	position: absolute;
 	top: 50%;
@@ -751,7 +752,7 @@
 .form input[type="text"]:focus,
 .form textarea:focus{
 	outline: 0;
-	border: 1px solid #e881a7;
+	border: 1px solid #0582CA;
 }
 .form label{
 	display: inline-block;
@@ -777,12 +778,22 @@
 ---------------------*/
 .info{
 	text-align: center;
+	background-color: #fefefe;
+	/* width: 300px; */
+	border-radius: 10px;
+	padding: 10px;
+
+}
+@media (max-width: 768px) {
+	.info{
+		/* padding: 6px; */
+	}
 }
 .info__name{
 	margin-bottom: 16px;
 }
 .info__name p{
-	color: #fefefe;
+	/* color: #fefefe; */
 	font-size: 24px;
 	font-weight: 400;
 }
@@ -790,7 +801,7 @@
 	margin-bottom: 16px;
 }
 .info__email a{
-	color: #e881a7;
+	color: #0582CA;
 	font-size: 18px;
 	font-weight: 400;
 }
@@ -798,12 +809,12 @@
 	margin-bottom: 16px;
 }
 .info__phone a{
-	color: #fefefe;
+	/* color: #fefefe; */
 	font-size: 24px;
 	font-weight: 400;
 }
 .info__social-bar .icon-btn{
-	color: #e881a7;
+	color: #0582CA;
 }
 /*-------------------------*/
 /* $footer
@@ -834,9 +845,9 @@
 	bottom: -80px; 
     right: 10px; 
     z-index: 99;
-    border: none;
+    border: 2px solid #ccc;
     outline: none; 
-    background-color: #e881a7; /* Set a background color */
+    background-color: #0582CA; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
@@ -848,8 +859,8 @@
 }
 @media (max-width: 768px) {
 	#js-pageTop{
-		width: 40px;
-    	height: 40px;
+		width: 55px;
+    	height: 55px;
     	border-radius: 40px;
     	font-size: 6px;
     	padding: 0px;
